@@ -1,0 +1,86 @@
+.OnboardingBody{
+    margin: 100px;
+    background-color: white;
+    width: 100vh;
+    height: 100vh;
+    border-radius: 2px;
+}
+
+.StepProgressBar{
+    margin: 0 15% 0 15%;
+}
+
+.Button{
+    padding: 10px;
+    width: 50vh;
+    height: 6vh;
+    color: white;
+    background-color: rgb(102,77,229);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Link{
+    text-decoration: none;
+}
+
+.InputArea{
+    width: 50vh;
+    height: 5vh;
+    border-radius: 5px;
+    align-items: center;
+    border-color: rgb(234,239,244);
+}
+.InputArea:focus{
+    border: '2px solid ',
+}
+
+.AddDetails{
+    padding: 20px;
+}
+.Fields p{
+    display: flex;
+    font-weight: 500;
+    margin: 0;
+    padding: 10px 0px 5px 23%;
+}
+
+.usageFields{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 20% 0 20%;
+    padding: 0;
+}
+
+.forMySelf{
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 25vh;
+    height: 25vh;
+    border: 1px solid rgb(234,239,244);
+}
+
+.withMyTeam{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+    width: 25vh;
+    height: 25vh;
+    border: 1px solid rgb(234,239,244);
+}
+
+.forMySelfDetails, .withMyTeamDetails {
+    font-weight: 400 !important;
+}
+
+.forMySelf,.withMyTeam p{
+    font-weight: 500;
+    text-align: left !important;
+    padding-left: 10px;
+}
+

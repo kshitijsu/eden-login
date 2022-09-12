@@ -6,10 +6,6 @@
     border-radius: 2px;
 }
 
-.StepProgressBar{
-    margin: 0 15% 0 15%;
-}
-
 .Button{
     padding: 10px;
     width: 50vh;
@@ -62,7 +58,7 @@
     padding: 10px;
     margin: 10px;
     width: 25vh;
-    height: 25vh;
+    height: 27vh;
     border: 1px solid rgb(234,239,244);
 }
 
@@ -72,12 +68,13 @@
     border-radius: 5px;
     background-color: white;
     width: 25vh;
-    height: 25vh;
+    height: 27vh;
     border: 1px solid rgb(234,239,244);
 }
 
 .forMySelfDetails, .withMyTeamDetails {
     font-weight: 400 !important;
+    font-size: small;
 }
 
 .forMySelf,.withMyTeam p{

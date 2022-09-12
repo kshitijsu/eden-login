@@ -28,9 +28,9 @@ export default function StepProgressBar({ status }) {
 
   return (
     <>
-      <div className="StepProgressBar">
+      <div>
         <ProgressBar
-          width={500}
+          width={580}
           height={2}
           percent={100 * (getStepPosition(transfer.status) / steps.length)}
           filledBackground="rgb(102,77,229)"
